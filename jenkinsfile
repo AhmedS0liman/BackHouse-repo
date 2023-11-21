@@ -1,3 +1,4 @@
+Docker login -u ahmeds0liman -p 241998Ahmed
 pipeline {
     agent any
 
