@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t back_house/web-image:latest . '
+                sh 'docker push back_house/web-image:latest'
+            }
+        }
