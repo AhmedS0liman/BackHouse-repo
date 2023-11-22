@@ -9,4 +9,5 @@ pipeline {
                 sh 'docker push back_house/web-image:latest'
             }
         }
-  }
+    }
+}
